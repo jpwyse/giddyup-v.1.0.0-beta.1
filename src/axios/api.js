@@ -4,7 +4,7 @@ const instance = axios.create({
   baseURL:
     process.env.NODE_ENV === "development"
       ? "http://localhost:8000/"
-      : "https://giddyup.herokuapp.com/",
+      : "https://giddyup-v1-beta.herokuapp.com/",
   timeout: 5000,
   xsrfHeaderName: "X-CSRFToken",
   xsrfCookieName: "csrftoken",
